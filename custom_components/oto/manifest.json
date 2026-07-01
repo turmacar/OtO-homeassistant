@@ -1,0 +1,13 @@
+{
+    "domain": "oto",
+    "name": "OtO Lawn",
+    "version": "0.1.0",
+    "documentation": "https://github.com/turmacar/OtO-homeassistant/blob/main/README.md",
+    "issue_tracker": "https://github.com/turmacar/OtO-homeassistant/issues",
+    "codeowners": ["@turmacar"],
+    "requirements": [
+        "requests>=2.31.0"
+    ],
+    "iot_class": "cloud_polling",
+    "config_flow": true
+}

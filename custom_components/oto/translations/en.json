@@ -1,0 +1,21 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "OtO Lawn Account",
+                "description": "Enter your OtO Lawn app credentials.",
+                "data": {
+                    "username": "Email",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Invalid credentials. Please check your email and password.",
+            "unknown": "An unexpected error occurred."
+        },
+        "abort": {
+            "already_configured": "This OtO account is already configured."
+        }
+    }
+}
