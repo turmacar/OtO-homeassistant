@@ -1,4 +1,4 @@
-"""OtO Lawn API client — Firebase Auth + Cloud Run REST API."""
+"""OtO Lawn API client - Firebase Auth + Cloud Run REST API."""
 
 from __future__ import annotations
 

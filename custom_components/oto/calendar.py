@@ -1,4 +1,4 @@
-"""Calendar platform for OtO Lawn integration — watering history."""
+"""Calendar platform for OtO Lawn integration - watering history."""
 
 from __future__ import annotations
 
@@ -125,7 +125,7 @@ def _build_calendar_events(
                     description=f"{start_info['body']}\n{body}".strip(),
                 ))
             else:
-                # End without a matching start — create a point event
+                # End without a matching start - create a point event
                 events.append(CalendarEvent(
                     start=dt,
                     end=dt + timedelta(minutes=1),

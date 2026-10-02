@@ -76,5 +76,4 @@ Thumbs.db
 *.log
 captures/
 mitmproxy_captures/
-PROJECT_CONTEXT.md
-TODO.md
+*.local.md

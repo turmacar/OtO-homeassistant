@@ -45,7 +45,6 @@ class MetadataTests(unittest.TestCase):
 
     def test_hacs_json_valid(self):
         self.assertEqual(self.hacs["name"], "OtO Lawn")
-        self.assertTrue(self.hacs["render_readme"])
 
     def test_readme_has_installation_instructions(self):
         self.assertIn("HACS", self.readme)

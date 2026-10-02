@@ -44,17 +44,17 @@ Communicates via OtO's Cloud Run REST API.
 ### HACS (Recommended)
 
 1. Open HACS in Home Assistant
-2. Click the three dots menu → **Custom repositories**
+2. Click the three dots menu -> **Custom repositories**
 3. Add `https://github.com/turmacar/OtO-homeassistant` as an **Integration**
 4. Search for "OtO Lawn" and install
 5. Restart Home Assistant
-6. Go to **Settings → Integrations → Add Integration → OtO Lawn**
+6. Go to **Settings -> Integrations -> Add Integration -> OtO Lawn**
 
 ### Manual
 
 1. Copy `custom_components/oto/` to your Home Assistant `config/custom_components/` directory
 2. Restart Home Assistant
-3. Go to **Settings → Integrations → Add Integration → OtO Lawn**
+3. Go to **Settings -> Integrations -> Add Integration -> OtO Lawn**
 
 ## Configuration
 

@@ -36,7 +36,7 @@ SCHED = "https://oto-cloud-service-scheduler-prod-716180884817.us-central1.run.a
 EMS = "https://oto-cloud-service-ems-prod-716180884817.us-central1.run.app"
 UNIT = "https://oto-cloud-service-unitcall-prod-716180884817.us-central1.run.app"
 
-# Credentials — read from env or fall back to hardcoded (dev only)
+# Credentials - read from env or fall back to hardcoded (dev only)
 OTO_EMAIL = os.environ.get("OTO_EMAIL", "")
 OTO_PASSWORD = os.environ.get("OTO_PASSWORD", "")
 
@@ -223,7 +223,7 @@ class TestUnitcall:
 
 
 # ---------------------------------------------------------------------------
-# Exploratory — try common REST patterns
+# Exploratory - try common REST patterns
 # ---------------------------------------------------------------------------
 
 
